@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body
+{
+    background: #f0f2f7;
+}
+.name
+{
+    position: absolute;
+    right: 450px;
+    top: 5%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: #5784f5;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.command
+{
+    position: absolute;
+    top: 30%;
+    font-size: 30px;
+    font-weight: 600;
+    right: 900px;
+    text-decoration: none;
+    display: inline-block;
+}
+.back
+{
+    position: absolute;
+    top: 88%;
+    width: 500px;
+    height: 50px;
+    right: 430px;
+    text-align: center;
+    border: none;
+    background: #809ce2;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: fff;
+}
+.footer
+{
+    top: 100%;
+    position: absolute;
+    font-size: 10px;
+}
+a
+{
+    color: #5784f5;
+}
+li
+{
+    display: inline-block;
+}
+/* 
+@media screen and (max-width : 768px) {
+    .container{
+        background-color: black;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .name{
+        background-color: green;
+    }
+} */
+
+/* 
+@media screen and (max-width : 1199px) {
+    .name {
+        background-color: black;
+    }
+} */
+
+@media screen and (max-width : 575px) {
+    .name {
+        background-color: #5784f5;
+        right: 125px;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .command {
+        right: 415px;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .back {
+        background-color: #5784f5;
+        width: 300px;
+        height: 50px;
+        right: 180px;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .name {
+        right: 150px;
+        font-size: 20px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .command {
+        right: 300px;
+        font-size: 20px;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .back {
+        right: 180px;
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .footer {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .footer {
+        top: 90%;
+    }
+}

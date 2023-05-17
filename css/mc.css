@@ -1,0 +1,42 @@
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+body
+{
+    background: linear-gradient(45deg, #4e65ff, #62effd);
+}
+button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 15em;
+    height: 3em;
+    cursor: pointer;
+}
+input
+{
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.enter
+{
+    text-transform: uppercase;
+    color: blue;
+    background-color: white;
+    border-radius: 5em;
+    transition: 1.5s;
+}
+.enter:hover
+{
+    color: white;
+    background-color: blue;
+    border-radius: 0em;
+    transition: 1.5s;
+}

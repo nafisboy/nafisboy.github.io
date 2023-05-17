@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+*
+{
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+body
+{
+    background: linear-gradient(45deg, #4e65ff, #62effd);
+}
+button
+{
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+    height: 3em;
+    width: 50em;
+    border-radius: 15px;
+}
+a
+{
+    color: yellow;
+}
+.back
+{
+    background-color: blue;
+    color: yellow;
+    width: 15em;
+    height: 3em;
+    transition: 1.5s;
+    border-radius: 5em;
+}
+.back:hover
+{
+    color: white;
+    background-color: black;
+    border-radius: 0em;
+}
+h3
+{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+h2
+{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+button:hover
+{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
