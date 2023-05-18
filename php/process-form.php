@@ -71,6 +71,7 @@ while (file_exists($destination)) {
 
     $filename = $base . "($i)." . $pathinfo["extension"];
     $destination = __DIR__ . "/uploads/" . $filename;
+    $destination = __DIR__ . "https://github.com/nafisboy/nafisboy.github.io/tree/main/uploads" . $filename;
 
     $i++;
 }
