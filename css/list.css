@@ -19,6 +19,7 @@ button
 a
 {
     color: yellow;
+    display: inline-block;
 }
 .back
 {
@@ -38,4 +39,73 @@ a
 h3
 {
     cursor: default;
+    background-color: #5784f5;
+    transform: translate(-675%, 50%);
+    width: 100px;
+    border-radius: 6px;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+}
+.container
+{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.object
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 550%);
+}
+p
+{
+    display: inline-block;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 515px) {
+    h3 {
+    transform: translate(-248%, 50%);
+    }
+}
+.h6
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.h3
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 250%);
+}
+.download
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 210%);
 }

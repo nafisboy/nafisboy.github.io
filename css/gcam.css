@@ -93,7 +93,7 @@ button:hover
         right: 200px;
     }
 } */
-
+/* 
 @media screen and (max-width : 2560px) {
     .back {
         right: -1120px;
@@ -136,13 +136,13 @@ button:hover
 
 @media screen and (max-width : 1360px) {
     .back {
-        /* right: -100px; */
+        
     }
 }
 
 @media screen and (max-width : 1360px) {
     .download {
-        /* right: auto; */
+        
     }
 }
 
@@ -219,7 +219,7 @@ button:hover
         background-color: #5784f5;
         border-radius: 10px;
     }
-}
+} */
 /* 
 @media screen and (max-width : 1075px) {
     .back {
@@ -325,4 +325,46 @@ button:hover
     .download {
         left: 600px;
     }
+}
+.container
+{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.object
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    background-color: #4e65ff;
+    border-radius: 8px;
+    color: antiquewhite;
+    width: 300px;
+}
+.h2
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 350%);
+}
+.back
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 600%);
 }

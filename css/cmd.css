@@ -149,3 +149,97 @@ li
         top: 90%;
     }
 }
+
+@media screen and (max-width : 521px) {
+    .name {
+        right: 58px;
+    }
+}
+
+@media screen and (max-width : 521px) {
+    .command {
+        right: 350px;
+    }
+}
+
+@media screen and (max-width : 521px) {
+    .back {
+        right: 110px;
+    }
+}
+
+@media screen and (max-width : 521px) {
+    .container
+{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width : 521px) {
+    .name
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #4e65ff;
+    border-radius: 8px;
+    color: antiquewhite;
+    width: 300px;
+}
+}
+
+@media screen and (max-width : 521px) {
+    .back
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 1300%);
+    background-color: #4e65ff;
+    border-radius: 8px;
+    color: antiquewhite;
+    width: 300px;
+}
+}
+
+@media screen and (max-width : 521px) {
+    .command
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-83%, 550%);
+    border-radius: 8px;
+    color: antiquewhite;
+    width: 300px;
+}
+}
+
+@media screen and (max-width : 521px) {
+    .footer
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-125%, 7000%);
+    border-radius: 8px;
+    width: 300px;
+}
+}
