@@ -497,3 +497,115 @@ input
     border-radius: 8px;
 }
 }
+
+@media screen and (max-width : 768px) {
+    .container
+{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .author
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    border-radius: 8px;
+    width: 400px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .name-cmd
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 650%);
+    border-radius: 8px;
+    width: 300px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .version
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 850%);
+    border-radius: 8px;
+    width: 300px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .text-cpy
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .copy-btn
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 850%);
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .back
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, 1050%);
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .footer
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-630%, 6930%);
+    border-radius: 8px;
+}
+}
