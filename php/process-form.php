@@ -38,8 +38,8 @@ if ($_FILES["image"]["error"] !== UPLOAD_ERR_OK) {
     }
 }
 
-// Reject uploaded file larger than 5MB
-if ($_FILES["image"]["size"] > 5048576) {
+// Reject uploaded file larger than 1MB
+if ($_FILES["image"]["size"] > 1048576) {
     exit('File too large (max 1MB)');
 }
 
@@ -71,7 +71,6 @@ while (file_exists($destination)) {
 
     $filename = $base . "($i)." . $pathinfo["extension"];
     $destination = __DIR__ . "/uploads/" . $filename;
-
 
     $i++;
 }
